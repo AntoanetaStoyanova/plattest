@@ -1,0 +1,255 @@
+@charset "UTF-8";
+body {
+  text-align: center;
+  background: linear-gradient(to right, rgba(93, 93, 93, 0.9), rgba(135, 133, 133, 0.3)), url("https://coolprints.bg/image/cache/catalog/spalno-belyo/Bulgaria/spalen-komplekt-zavivka-kalyfki-plik-spalno-belio-cveten-print-sublimacia-detsko-100106-2-600x600.jpg") center top;
+}
+body header #titre {
+  padding: 4rem 25rem 0 25rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: #f9f7f7;
+  -webkit-text-stroke: 0.09rem #282c31;
+  text-shadow: 20px 20px 24px rgba(6, 0, 0, 0.5);
+}
+body .bg {
+  background-image: url("https://www.papertraildesign.com/wp-content/uploads/2020/03/Kindergarden-lined-paper-with-picture-window.jpg");
+  background-size: contain;
+}
+body .containers {
+  text-align: center;
+  display: block;
+  border-radius: 15px;
+  width: 60vw;
+  margin: 6rem auto auto auto;
+  padding: 1rem 3rem 0 4rem;
+  font-family: monospace;
+  font-weight: bolder;
+  font-size: 1.05rem;
+  line-height: 2.6rem;
+}
+body .containers .drawing {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  transform: rotate(-15deg);
+}
+body .containers .drawing .dessin {
+  width: 8rem;
+  height: auto;
+}
+body .containers .drawing .dessin1 {
+  width: 8rem;
+  height: auto;
+  transform: rotate(-10deg);
+}
+body .containers .drawing .dessin2 {
+  width: 4rem;
+  height: auto;
+  transform: rotate(30deg);
+}
+body .containers .ti {
+  display: block;
+}
+body .containers .ti h2 {
+  padding-bottom: 1rem;
+}
+body .containers .ti .image-container {
+  margin-top: 3rem;
+  position: relative;
+  display: inline-block;
+}
+body .containers .ti .image-container img {
+  padding-left: 7rem;
+  width: 28rem;
+  height: auto;
+}
+body .containers .ti .image-container .scotch-effet {
+  margin-left: 3rem;
+  position: absolute;
+  top: -1rem;
+  left: -5rem;
+  width: 13rem;
+  height: 4.5rem;
+  transform: rotate(-20deg);
+}
+body .containers .ti .image-container .scotch-effet1 {
+  margin-left: 10rem;
+  position: absolute;
+  top: -4rem;
+  right: -3.7rem;
+  width: 13rem;
+  height: 4.5rem;
+  transform: rotate(40deg);
+}
+body .containers .ti .image-container .scotch-effet2 {
+  margin-left: 10rem;
+  position: absolute;
+  bottom: -4rem;
+  left: -6rem;
+  width: 13rem;
+  height: 4.5rem;
+  transform: rotate(-140deg);
+}
+body .containers .ti .image-container .scotch-effet3 {
+  position: absolute;
+  bottom: -2rem;
+  right: -3rem;
+  width: 13rem;
+  height: 4.5rem;
+  transform: rotate(-20deg);
+}
+body .containers .ti .image-container .scotch-effect::before {
+  content: "";
+  position: absolute;
+  top: -0.6rem;
+  left: -0.6rem;
+  width: 100%;
+  height: 0.6rem;
+}
+body .containers .present {
+  display: flex;
+  flex-direction: row;
+}
+body .containers .present .presentation {
+  flex: 1;
+  margin: 1rem auto 5rem auto; /* TRBL - Top Right Bottom Left*/
+  text-align: left;
+  padding: 4rem 2rem 3rem 0.7rem;
+}
+body .containers .present .presentation h4 {
+  padding-bottom: 1.5rem;
+}
+body .containers .present .presentation p {
+  font-size: 0.9rem;
+}
+body .bas-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 8rem;
+  padding: 5rem 3rem;
+}
+body .bas-page .recommendees {
+  margin-left: 4rem;
+  color: #f9f7f7;
+  -webkit-text-stroke: 0.04rem #282c31;
+  text-shadow: 20px 20px 24px rgba(6, 0, 0, 0.5);
+}
+body .bas-page .another {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  justify-content: space-between;
+  align-content: space-around;
+}
+body .bas-page .another .card {
+  width: 20rem;
+}
+body .bas-page .another .card img {
+  width: 20rem;
+  height: auto;
+}
+body .bas-page .another .card .card-text .bleu {
+  color: rgb(65, 65, 237);
+}
+body .bas-page .comment-card {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  margin-left: 23rem;
+  margin-top: 7rem;
+  min-width: 0;
+  padding: 20px;
+  width: 450px;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px 0px rgb(212, 182, 212);
+}
+body .bas-page .comment-card .row .col-10 .comment-box {
+  padding: 5px;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .comment-area textarea {
+  resize: none;
+  border: 1px solid #ad9f9f;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .comment-area textarea .form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 1px rgb(255, 0, 0) !important;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .comment-area .comment-btns .row .col-6 .pull-right .send {
+  color: #fff;
+  background-color: #ff0000;
+  border-color: #ff0000;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .comment-area .comment-btns .row .col-6 .pull-right .send:hover {
+  color: #fff;
+  background-color: #f50202;
+  border-color: #f50202;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating {
+  display: flex;
+  margin-top: -10px;
+  flex-direction: row-reverse;
+  margin-left: -4px;
+  float: left;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating > input {
+  display: none;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating > label {
+  position: relative;
+  width: 19px;
+  font-size: 25px;
+  color: #ff0000;
+  cursor: pointer;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating > label::before {
+  content: "★";
+  position: absolute;
+  opacity: 0;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating > label:hover:before, body .bas-page .comment-card .row .col-10 .comment-box .rating > label:hover ~ body .bas-page .comment-card .row .col-10 .comment-box .rating > label:before {
+  opacity: 1 !important;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating > input:checked ~ label:before {
+  opacity: 1;
+}
+body .bas-page .comment-card .row .col-10 .comment-box .rating:hover > input:checked ~ label:before {
+  opacity: 0.4;
+}
+body .icons {
+  margin-top: 10rem;
+  margin-bottom: 9rem;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+body .icons .icon {
+  margin: 2rem 3rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+body .icons .icon i {
+  margin: 1rem 1rem 0 1rem;
+  cursor: pointer;
+  /* margin-left: 1rem;
+  margin-right: 1rem; */
+}
+body .icons .icon i:hover {
+  font-size: 5rem;
+  color: #f50202;
+}
+body .icons .icon .black {
+  color: black;
+}/*# sourceMappingURL=style.css.map */
